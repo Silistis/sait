@@ -49,15 +49,6 @@ b {
     color: white;
 }
 
-.input-checkbox {
-    font-family: PapaRegular;
-    font-size: 13.5px;
-    color: #616161;
-    position: relative;
-    left: 15%;
-    bottom: 30px;
-}
-
 a {
     text-decoration: none;
 }
