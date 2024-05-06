@@ -49,6 +49,68 @@ b {
     color: white;
 }
 
+.input-text {
+    position: absolute;
+    font-family: PapaText;
+    left: 9.25%;
+}
+
+.input-checkbox {
+    font-family: PapaRegular;
+    font-size: 13.5px;
+    color: #616161;
+    position: relative;
+    left: 15%;
+    bottom: 30px;
+}
+
+.input-searh {
+    width: 180px;
+    height: 30px;
+    background: #444444;
+    color: #989898;
+    outline: none;
+    border: 1px solid #616161;
+}
+
 a {
     text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40.1%;
+}
+  
+.flex-container > div {
+    border: 1px solid #616161;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: PapaRegular;
+}
+
+.flex-container-t {
+    display: block;
+    flex-wrap: nowrap;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.flex-container-t > div {
+    height: 550px;
+    margin-bottom: 10px;
+    /* border: 1px solid #616161;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: PapaRegular; */
 }
