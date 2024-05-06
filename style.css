@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Papa';
+	src: url(file/font/OpenSansCondensed-Light.ttf); 
+}
+
+@font-face {
+	font-family: 'PapaRegular';
+	src: url(file/font/OpenSans.ttf); 
+}
+
+@font-face {
+	font-family: 'PapaText';
+	src: url(file/font/OpenSansCondensed-Bold.ttf); 
+}
+
+body {
+    background: #333333;
+    user-select: none;
+}
+
+b {
+    color: #D1A954;
+}
+
+.input-login {
+    width: 350px;
+    height: 35px;
+    background: #444444;
+    color: #989898;
+    outline: none;
+    border: 1px solid #616161;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 45px;
+    left: 15%;
+}
+
+.input-button {
+    width: 380px;
+    height: 35px;
+    background: #D1A954;
+    outline: none;
+    border: 1px solid #616161;
+    padding: 0 15px;
+    position: relative;
+    left: 15%;
+    font-family: PapaText;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
