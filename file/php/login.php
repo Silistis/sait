@@ -9,11 +9,11 @@ $statusChange = "UPDATE `users` SET userStatus = '1' WHERE mail = '$login'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    setcookie('access', 'yes', time() + 3600, 'localhost/amfiteatr');
+    setcookie('access', $login, time() + 3600, '/amfiteatr');
     $conn->query($statusChange);
+    header("Location: ../../index.php");
 } else {
-    setcookie('access', 'error', time() + 3600, 'localhost/amfiteatr');
+    setcookie('access', 'error', time() + 3600, '/amfiteatr');
+    header("Location: ../../login.php");
 }
-
-header("Location: ../../login.php");
 exit();

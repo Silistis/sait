@@ -21,6 +21,12 @@ body {
 b {
     color: #D1A954;
 }
+.placeClick {
+    background-color: #D89B19;
+}
+.placeOccupied {
+    background-color: #D1A954;
+}
 
 .input-login {
     width: 350px;
@@ -47,6 +53,14 @@ b {
     left: 15%;
     font-family: PapaText;
     color: white;
+}
+.reglink {
+    text-decoration: none;
+    color: white;
+    font-family: PapaText;
+    position: relative;
+    top: 10px;
+    left: 15%;
 }
 
 .input-text {
