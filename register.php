@@ -34,7 +34,7 @@
         <div style="width: 1110px; height: 48px; margin-left: auto; margin-right: auto; margin-top: 55px;">
             <hr style="color: #565656">
             <a style="color: #989898; font-family: PapaRegular; font-size: 12; text-align: left;">(с) Все права защищены. AMFITEATR. 2024</a>
-            <a style="color: #989898; font-family: PapaRegular; font-size: 12; text-align: right; position: relative; left: 53%;">Разработано Fox² Studio</a>
+            <a style="color: #989898; font-family: PapaRegular; font-size: 12; text-align: right; position: relative; left: 53%;">Разработано Sility</a>
         </div>
         <script src="file/js/script.js"></script>
     </body>
